@@ -13,7 +13,7 @@ app = Flask(__name__)
 # Load the model
 model = tf.keras.models.load_model('Sign_classifier.h5')
 
-# Class labels
+# Class label
 class_labels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 
                 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 
                 'del', 'nothing', 'space']
